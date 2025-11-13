@@ -1,3 +1,6 @@
 source ~/.c2rc
 export TF_VAR_access_key=$AWS_ACCESS_KEY_ID
 export TF_VAR_secret_key=$AWS_SECRET_ACCESS_KEY
+
+export AWS_REQUEST_CHECKSUM_CALCULATION=when_required
+export AWS_RESPONSE_CHECKSUM_VALIDATION=when_required
